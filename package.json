@@ -4,11 +4,12 @@
     "description": "Real time chat sample",
     "scripts": {
         "start": "node .\\src\\app.js",
-		"start-dev": ".\\node_modules\\.bin\\nodemon.cmd --watch src .\\src\\app.js"
+        "start-dev": ".\\node_modules\\.bin\\nodemon.cmd --watch src/ .\\src\\app.js"
     },
     "dependencies": {
         "express": "latest",
-        "jade": "latest",
+        "jade": "^1.11.0",
+        "jquery": "^3.2.1",
         "socket.io": "latest"
     },
     "author": "galic",
