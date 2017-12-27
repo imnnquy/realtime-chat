@@ -1,0 +1,18 @@
+{
+    "name": "RealTimeChatSample",
+    "version": "0.0.1",
+    "description": "Real time chat sample",
+    "scripts": {
+        "start": "node .\\src\\app.js",
+		"start-dev": ".\\node_modules\\.bin\\nodemon.cmd --watch src .\\src\\app.js"
+    },
+    "dependencies": {
+        "express": "latest",
+        "jade": "latest",
+        "socket.io": "latest"
+    },
+    "author": "galic",
+    "devDependencies": {
+        "nodemon": "^1.14.3"
+    }
+}
